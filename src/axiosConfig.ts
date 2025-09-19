@@ -1,10 +1,11 @@
 import axios from "axios";
+const apiKey = import.meta.env.VITE_NEWS_API_KEY;
 
 const axiosInstance = axios.create({
     baseURL: "https://newsapi.org/v2/",
     headers: {
         "Content-Type": "application/json",
-        "x-Api-key": 'a35c4055350144aeb1f9dfeadf816aba'
+        "x-Api-key": apiKey
     }
 })
 
