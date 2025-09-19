@@ -26,8 +26,6 @@ const App = () => {
   const [searchSelectCountry, setSearchSelectCountry] = useState<country>({ name: "India", code: "in" });
   const [searchSelectCategory, setSearchSelectCategory] = useState<string>("general");
 
-  // const navigate = useNavigate()
-
   return (
     <BrowserRouter>
       <nav className="navbar bg-primary fixed-top">
